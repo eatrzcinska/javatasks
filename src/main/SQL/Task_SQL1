@@ -1,0 +1,2 @@
+SELECT ID, ContactName FROM ORDERS WHERE Amount>200 AND Country='UK';
+UPDATE ORDERS SET Type='corn' WHERE ID=2;
