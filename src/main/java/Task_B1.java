@@ -23,7 +23,7 @@ public class Task_B1 {
         sb.append("</body></html>");
         String html = sb.toString();
 
-        PrintWriter pw = new PrintWriter("src\\main\\resources\\Task_B2.html");
+        PrintWriter pw = new PrintWriter("src\\main\\resources\\Task_B1.html");
         pw.println(html);
         pw.close();
     }
